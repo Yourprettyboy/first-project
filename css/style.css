@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 10;
+}
+html{
+    font-size: 1.5cm;
+    
+font-family: 'Nunito', sans-serif;
+background-image: linear-gradient(to left, #ff00aa, #03f13f); 
+}
+header {
+    background-image: linear-gradient(to left, #ff00aa, #03f13f);
+    text-align: center;
+}
+main {
+    background-image: linear-gradient(to left, #ff00aa, #03f13f);
+}
+footer {
+    background-image: linear-gradient(to left, #ff0095, #76f103);
+    background-color: rgba(2, 199, 248, 0.541);
+    padding: 10px 50px;
+}
+#about{
+    background-color: rgba(184, 62, 196, 0.562);
+    padding: 10px 50px;
+    text-align: center;
+}
+#article{
+    background-image: linear-gradient(to left, #ff0095, #76f103);
+    background-color: rgba(2, 199, 248, 0.651);
+    padding: 10px 50px;
+}
+p{
+    text-align: justify;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+h1{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-style: italic;
+}
+h2{
+    font-size: 1cm;
+    text-align: center;
+}
+section{
+    font-size: 25px;
+
+}
+ul{
+    list-style: none;
+}
+h4{
+    padding: 10px;
+}
+li{
+    padding: 10px;
+}
+p{
+    text-align: center;
+}
+a:link{
+    color: #ff0095;
+}
+a:active{
+    color: #76f103;
+}
+a:visited{
+    color: #f1b903;
+}
+a:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+a:focus{
+    color: #ff0095;
+}
+a{
+    text-decoration: none;
+    color: brown;
+}
+strong:lang(ru){
+    font-style: italic;
+}
+p:lang(en){
+    text-decoration: underline;
+}
+q{
+    font-size: 30px;
+    text-align: center;
+}
+h2:before{
+    content: "Важно!!!";
+    border: 5px;
+    color: aqua;
+}
+h2:after{
+    content: "Важно!!!";
+    border: 5px;
+    color: rgb(5, 105, 255);
+}
+p:first-line{
+    letter-spacing: 5px;
+}
+#articles li:nth-child(even){
+    background-color: #03f13f;
+}
+
+
+
+
