@@ -109,6 +109,83 @@ p:first-line{
 #articles li:nth-child(even){
     background-color: #03f13f;
 }
+table {
+    width: 1%;
+    border-collapse: collapse;
+    font-size: 30px;
+    margin: auto;
+}
+th, td {
+    border: 2px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #229c28;
+}
+#contact-form input[type = "text"] {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(89, 0, 253) solid 1px;
+    background-color: #eddfff;
+}
+
+#contact-form input[type="submit"] {
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(44, 2, 83) solid 1px;
+    background-color: #8223ff;
+}
+#contact-form input[type="submit"]:hover {
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(44, 2, 83) solid 1px;
+    background-color: whitesmoke;
+}
+#contact-form textarea {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(89, 0, 253) solid 1px;
+    background-color: #eddfff;
+}
+#contact-form option {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(89, 0, 253) solid 1px;
+    background-color: #eddfff;
+}
+#contact-form select[type="theme"] {
+    width: 260px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: rgb(89, 0, 253) solid 1px;
+    background-color: #eddfff;
+}
+tr:nth-child(even){
+    background-color: rgb(6, 245, 106)
+ }
+ 
+ tr:nth-child(ofd){
+    background-color: rgb(255, 0, 0)
+ }
+ 
+ th:nth-child(even){
+    background-color: rgb(19, 3, 250)
+ }
+ 
+ th:nth-child(ofd){
+    background-color: rgb(184, 25, 25)
+ }
 
 
 

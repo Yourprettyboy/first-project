@@ -8,7 +8,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&family=Nunito:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>Neural Networks</title>    
+    <title>Neural Networks</title>   
+    <meta name="keywords" content="Нейросети, Лучшие нейросети, Бесплатные нейросети"> 
+    <link rel="icon" type="image" href="img/favicon12.ico" sizes="32x32">
+    <meta property="og:title" content=">Добро пожаловать на сайт: Нейросети: лучшие и бесплатные решения">
+    <meta property="og:site_name" content="Neural Networks">
+    <meta property="og:url" content="https://yourprettyboy.github.io/first-project/index.html#feedback">
+    <meta property="og:description" content="Нейросети - это мощные инструменты искусственного интеллекта, способные решать широкий спектр задач, от распознавания образов до обработки естественного языка. Они стали неотъемлемой частью современной технологической эволюции, трансформируя множество отраслей, включая медицину, финансы, торговлю и многое другое.">
+    <meta property="og:image" content="https://yourprettyboy.github.io/first-project/index.html#feedback/img/favicon12.ico">
 </head>
 <body>
   <header>
@@ -43,22 +50,7 @@
   </main>
   <footer>
     <q>Представьте: вы придумали самообучаемую машину, которая собирает клубнику. Она с каждым днем собирает ее все лучше и лучше, все больше и больше. Ей начинает нравиться собирать клубнику. Логично, что в какой-то момент ей захочется, чтобы на всей планете были сплошные клубничные поля. А теперь представьте, что вы собираетесь выключить такого робота, чтобы он не уничтожил человечество, пытаясь засадить все клубникой. Вы будете первым, кого он убьет.
-
-      Илон Маск</q>
-      <style>
-        table {
-            width: 10%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 2px solid #000000;
-            padding: 8px;
-            text-align: center;
-        }
-        th {
-            background-color: #229c28;
-        }
-    </style>
+      Илон Маск</q>  
 </head>
 <body>
     <h2>Информация о нейронных сетях</h2>
@@ -98,33 +90,55 @@
             <td>Он позволяет агенту обучаться в сложных пространствах состояний и взаимодействовать с окружением, стремясь максимизировать накопленную награду.</td>
             <td>Вызывает зависимость от данных: В ходе обучения DQN может "застрять" в локальном оптимуме и не найти глобально оптимального решения.</td>
         </tr>
+        <tr>
+          <td>Полносвязная нейронная сеть</td>
+          <td>Полносвязная</td>
+          <td>Классификация и прогнозирование</td>
+          <td>Распознавание рукописного текста или прогнозирование финансовых рынков.</td>
+          <td>Катастрофическая забывчивость</td>
+        </tr>
+        <tr>
+          <td>Рекуррентная сверточная нейронная сеть</td>
+          <td>Рекуррентно-свёрточная</td>
+          <td>Обработка последовательных данных</td>
+          <td>Объединяет в себе свойства RNN и CNN, что позволяет ей обрабатывать последовательные данные, такие как текст и изображения</td>
+          <td>Большое время обработки данных</td>
+        </tr>
+        <tr>
+          <td>Генеративно-состязательная сеть</td>
+          <td>Генеративно-состязательная</td>
+          <td>GAN широко используется для создания новых данных, например, текста и реалистичных изображений.</td>
+          <td>Значительно сокращает время работы</td>
+          <td>Иногда появляются ошибки в тексте</td>
+        </tr>
     </table>
     <p>&copy; Пичугов Дмитрий, 2023 г.</p>
   </footer>
   <footer>
     <section id="feedback">
-      <p>Оставьте отзыв</p>
-    <form action="/submit_feedback.php" method="post">
-      <label for="name">Имя:</label>
-      <input type="text" id="name" name="name"><br><br>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email"><br><br>
-      <label for="message">Сообщение:</label><br>
-      <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-      <input type="submit" value="Отправить">
-  </form>
+      <h2>Обратная связь</h2>
+                <form id="contact-form">
+            <div class="contact-form">
+                <label for="theme">Была ли полезна статья</label><br>
+                <select name="theme" type="theme" id="theme">
+                    <option value="1">Не очень</option>
+                    <option value="2">Помогла но не сильно</option>
+                    <option value="3">Отлично</option>
+                    <option value="4">Великолепно</option>
+                </select>
+            </div>
+                <label for="name">Имя</label><br>
+                <input id="name" type="text" placeholder="Имя" required autofocus><br>
+                <label for="email">Email</label><br>
+                <input id="email" type="text" placeholder="Email" required><br>
+                <label for="connect">Текст сообщения</label><br>
+                <textarea id="connect" type="text" rows="3" required></textarea><br>
+                <label>
+                    <input id="checkbox" type="checkbox" value="checkbox" checked required>
+                    Согласие на обработку персональных данных<br>
+                </label>
+                <input type="submit" value="Отправтить"><br>
 </section>
-
-
-
-
-
-
-
-
-
-
-
     <p>Вы также можете найти меня здесь: 
       <a href="https://vk.com/prettysickboy" target="_blank"><img class="social-icon" src="img/VK.com-logo.svg" alt="Соцсеть 1" width="50px"></a>
       <a href="https://www.google.ru/" target="_blank"><img class="social-icon" src="img/google-icon-2048x2048-czn3g8x8.png" alt="Соцсеть 2" width="50px"></a>
